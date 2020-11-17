@@ -26,20 +26,20 @@ h1 { font-size: 68px; }
     width:         604px;
 }
 .one {
-    background: lightcoral;
+    background:    lightcoral;
     border-radius: 100% 0 0 0;
 }
 .two {
-    background: lightgoldenrodyellow;
+    background:    lightgoldenrodyellow;
     border-radius: 0 100% 0 0;
 }
 .three {
     border-radius: 0 0 0 100%;
-    background: lightskyblue;
+    background:    lightskyblue;
 }
 .four {
     border-radius: 0 0 100% 0;
-    background: lightgreen;
+    background:    lightgreen;
 }
 .semi {
     border: 1px solid lightgrey;
@@ -48,15 +48,7 @@ h1 { font-size: 68px; }
     width:  300px;
 }
 
-.active-one {
-    background: red;
-}
-.active-two {
-    background: yellow;
-}
-.active-three {
-    background: blue;
-}
-.active-four {
-    background: green;
-}
+.active-one   { background: red;    }
+.active-two   { background: yellow; }
+.active-three { background: blue;   }
+.active-four  { background: green;  }
