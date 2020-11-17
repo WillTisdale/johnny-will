@@ -17,30 +17,6 @@ h1 { font-size: 68px; }
 
 /* classes */
 
-.circle {
-    border:        1px solid lightgrey;
-    border-radius: 100%;
-    display:       flex;
-    flex-wrap:     wrap;
-    height:        604px;
-    width:         604px;
-}
-.one {
-    background:    lightcoral;
-    border-radius: 100% 0 0 0;
-}
-.two {
-    background:    lightgoldenrodyellow;
-    border-radius: 0 100% 0 0;
-}
-.three {
-    background:    lightskyblue;
-    border-radius: 0 0 0 100%;
-}
-.four {
-    background:    lightgreen;
-    border-radius: 0 0 100% 0;
-}
 .semi {
     border: 1px solid lightgrey;
     cursor: pointer;
@@ -48,7 +24,38 @@ h1 { font-size: 68px; }
     width:  300px;
 }
 
+.one {
+    background:    lightcoral;
+    border-radius: 100% 0 0 0;
+}
+
+.two {
+    background:    lightgoldenrodyellow;
+    border-radius: 0 100% 0 0;
+}
+
+.three {
+    background:    lightskyblue;
+    border-radius: 0 0 0 100%;
+}
+
+.four {
+    background:    lightgreen;
+    border-radius: 0 0 100% 0;
+}
+
 .active-one   { background: red;    }
 .active-two   { background: yellow; }
 .active-three { background: blue;   }
 .active-four  { background: green;  }
+
+
+/* ids */
+#circle {
+    border:        1px solid lightgrey;
+    border-radius: 100%;
+    display:       flex;
+    flex-wrap:     wrap;
+    height:        604px;
+    width:         604px;
+}
