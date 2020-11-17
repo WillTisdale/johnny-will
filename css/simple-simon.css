@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    height: 900px;
+    margin: 15px auto;
+}
+h1 {
+    font-size: 68px;
+}
+.circle {
+    width: 604px;
+    height: 604px;
+    border: 1px solid lightgrey;
+    border-radius: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.one {
+    background: lightcoral;
+    border-radius: 100% 0 0 0;
+}
+.two {
+    background: lightgoldenrodyellow;
+    border-radius: 0 100% 0 0;
+}
+.three {
+    border-radius: 0 0 0 100%;
+    background: lightskyblue;
+}
+.four {
+    border-radius: 0 0 100% 0;
+    background: lightgreen;
+}
+.semi {
+    height: 300px;
+    width: 300px;
+    border: 1px solid lightgrey;
+}
+button {
+    margin-text: 30px;
+}
+.active-one {
+    background: red;
+}
+.active-two {
+    background: yellow;
+}
+.active-three {
+    background: blue;
+}
+.active-four {
+    background: green;
+}
