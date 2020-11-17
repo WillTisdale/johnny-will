@@ -34,12 +34,12 @@ h1 { font-size: 68px; }
     border-radius: 0 100% 0 0;
 }
 .three {
-    border-radius: 0 0 0 100%;
     background:    lightskyblue;
+    border-radius: 0 0 0 100%;
 }
 .four {
-    border-radius: 0 0 100% 0;
     background:    lightgreen;
+    border-radius: 0 0 100% 0;
 }
 .semi {
     border: 1px solid lightgrey;
