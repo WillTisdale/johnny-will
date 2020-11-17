@@ -1,26 +1,26 @@
-$(document).ready(function(){
+$(() => {
 
-    let gameArray = [];
-    const one = $('.one')
-    const two = $('.two')
-    const three = $('.three')
-    const four = $('.four')
-    const soundOne = document.getElementById('soundOne')
-    const soundTwo = document.getElementById('soundTwo')
-    const soundThree = document.getElementById('soundThree')
-    const soundFour = document.getElementById('soundFour')
-    const play = $('#playButton')
-    let simpleSimonIndex = 0;
-    let input;
-    let delay = 200
-    let delayTwo = 1000
-    let score = $('#score')
-    let points = 0
+    const one              = $('.one');
+    const two              = $('.two');
+    const three            = $('.three');
+    const four             = $('.four');
+    const soundOne         = $('#soundOne');
+    const soundTwo         = $('#soundTwo');
+    const soundThree       = $('#soundThree');
+    const soundFour        = $('#soundFour');
+    const play             = $('#playButton');
+    let   simpleSimonIndex = 0;
+    let   delay            = 200;
+    let   delayTwo         = 1000;
+    let   score            = $('#score');
+    let   points           = 0;
+    let   gameArray        = [];
+    let   input;
 
 
 ///Add delay to each additional index
     function theGame() {
-        let random = Math.floor(Math.random() * 4)
+        const random = Math.floor(Math.random() * 4);
         if(gameArray.length >= 1){
             let delayTwo = 1000
             for(var i = 0; i < gameArray.length; i++){
